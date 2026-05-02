@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Ceylon Agro Development — Farm Sites Across Sri Lanka</title>
+  <meta name="description" content="Explore Ceylon Agro Development's farming projects — the active Nuwara Eliya Highland Farm and the developing Mannar Chilli Site, with exciting expansion plans."/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<nav class="navbar scrolled" id="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="navbar-logo">
+      <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="22" cy="22" r="22" fill="#2E7D32"/>
+        <path d="M22 8 C22 8 10 16 10 26 C10 30 13 33 16 34 C15 30 16 26 19 23 C19 23 17 28 20 32 C21 33 22 34 22 34 C22 34 23 33 24 32 C27 28 25 23 25 23 C28 26 29 30 28 34 C31 33 34 30 34 26 C34 16 22 8 22 8Z" fill="#A5D6A7"/>
+        <path d="M22 14 C22 14 14 20 14 28 C14 31 16 33 18 34 C18 30 19 27 22 25 C25 27 26 30 26 34 C28 33 30 31 30 28 C30 20 22 14 22 14Z" fill="white" opacity="0.9"/>
+        <path d="M22 36 L22 25" stroke="#F9A825" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="22" cy="36" r="2" fill="#F9A825"/>
+      </svg>
+      <div class="logo-text"><span class="logo-name">Ceylon Agro Development</span><span class="logo-sub">Est. 2015</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li class="nav-item-dropdown">
+        <a href="#" class="nav-link active">Portfolio</a>
+        <div class="nav-dropdown">
+          <a href="products.html"><span class="dd-icon">🥔</span> Products</a>
+          <a href="projects.html"><span class="dd-icon">🌾</span> Projects</a>
+        </div>
+      </li>
+      <li><a href="sustainability.html" class="nav-link">Sustainability</a></li>
+      <li><a href="investors.html" class="nav-link">Investors</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-cta"><a href="contact.html#export-inquiry" class="btn btn-gold btn-sm">Export Inquiry</a></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <div class="mobile-portfolio-label">Portfolio</div>
+    <a href="products.html" class="mobile-dropdown-item">🥔 Products</a>
+    <a href="projects.html" class="mobile-dropdown-item">🌾 Projects</a>
+    <a href="sustainability.html" class="nav-link">Sustainability</a>
+    <a href="investors.html" class="nav-link">Investors</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+    <a href="contact.html#export-inquiry" class="btn btn-gold">Export Inquiry</a>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Projects</span></nav>
+    <h1>Our Farm Projects</h1>
+    <p class="page-hero-sub">Cultivating premium produce across Sri Lanka's most productive agro-climatic zones.</p>
+  </div>
+</div>
+
+<!-- OVERVIEW STATS -->
+<section class="sus-stats-bar">
+  <div class="container">
+    <div class="sus-stats-grid">
+      <div class="sus-stat">
+        <span class="val">2</span>
+        <div class="lbl">Farm Project Sites</div>
+      </div>
+      <div class="sus-stat">
+        <span class="val">1</span>
+        <div class="lbl">Active Production Site</div>
+      </div>
+      <div class="sus-stat">
+        <span class="val">1</span>
+        <div class="lbl">Site Under Development</div>
+      </div>
+      <div class="sus-stat">
+        <span class="val">3</span>
+        <div class="lbl">Expansion Projects Planned</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERACTIVE MAP SECTION -->
+<section class="section" id="map-section" style="background:var(--off-white);">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-label">Geographic Presence</span>
+      <h2 class="section-title">Our Farming Locations<br/>on the Sri Lanka Map</h2>
+      <p class="section-subtitle">Strategically chosen locations across Sri Lanka's diverse agro-climatic zones — from highland mist to coastal arid plains.</p>
+    </div>
+    <div class="projects-map-wrap reveal">
+      <h3 style="color:var(--green-dark); margin-bottom:32px;">Interactive Farm Site Map</h3>
+      <!-- Accurate SVG Sri Lanka Map -->
+      <div class="sri-lanka-map" style="max-width:380px; margin:0 auto; position:relative;">
+        <svg viewBox="0 0 200 340" xmlns="http://www.w3.org/2000/svg" style="width:100%; filter:drop-shadow(0 8px 24px rgba(0,0,0,.15));">
+          <!-- Accurate Sri Lanka outline path -->
+          <path d="
+            M 95,10
+            C 100,10 108,12 114,16
+            C 122,21 128,28 133,37
+            C 138,46 141,56 143,66
+            C 145,76 145,87 144,97
+            C 143,108 140,119 136,129
+            C 131,140 124,150 116,160
+            C 108,170 99,179 91,189
+            C 83,199 77,209 73,219
+            C 69,229 68,240 70,250
+            C 72,260 77,268 83,274
+            C 88,279 93,282 96,286
+            C 99,290 99,293 97,295
+            C 94,298 89,299 85,298
+            C 78,296 70,291 63,283
+            C 55,274 49,262 45,249
+            C 41,236 39,222 39,208
+            C 39,193 42,178 48,164
+            C 54,149 63,136 69,122
+            C 76,107 80,92 82,77
+            C 84,62 83,47 84,33
+            C 85,23 89,14 95,10 Z
+          " fill="#4CAF50" opacity="0.25" stroke="#2E7D32" stroke-width="1.5"/>
+
+          <!-- Northern peninsula (Jaffna) -->
+          <path d="M 95,10 C 97,5 100,3 103,5 C 107,8 110,13 109,18 C 107,23 103,24 99,22 C 96,20 94,16 95,10Z" fill="#4CAF50" opacity="0.35" stroke="#2E7D32" stroke-width="1"/>
+
+          <!-- Mannar Island - NW coast, real location -->
+          <!-- Mannar is at approx 8.97°N, 79.86°E — upper-left area of the map -->
+          <!-- In our SVG coords: approx x=55, y=82 -->
+          <circle cx="55" cy="82" r="9" fill="#F59E0B" stroke="white" stroke-width="2.5" style="cursor:pointer;" data-site="Mannar Chilli Site"/>
+          <circle cx="55" cy="82" r="16" fill="rgba(245,158,11,0.18)" class="pulse-ring"/>
+          <!-- Mannar causeway indicator -->
+          <line x1="65" y1="82" x2="82" y2="90" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.6"/>
+
+          <!-- Nuwara Eliya - Central highlands, real location -->
+          <!-- Nuwara Eliya is at approx 6.97°N, 80.77°E — central area, slightly south -->
+          <!-- In our SVG coords: approx x=103, y=195 -->
+          <circle cx="103" cy="195" r="9" fill="#2E7D32" stroke="white" stroke-width="2.5" style="cursor:pointer;" data-site="Nuwara Eliya Highland Farm"/>
+          <circle cx="103" cy="195" r="16" fill="rgba(46,125,50,0.2)" class="pulse-ring"/>
+
+          <!-- Labels -->
+          <text x="38" y="72" font-size="7.5" fill="#92400E" font-weight="bold" font-family="Inter,sans-serif">Mannar</text>
+          <text x="38" y="81" font-size="6" fill="#92400E" font-family="Inter,sans-serif">(Developing)</text>
+
+          <text x="107" y="191" font-size="7.5" fill="#1B5E20" font-weight="bold" font-family="Inter,sans-serif">Nuwara Eliya</text>
+          <text x="107" y="200" font-size="6" fill="#1B5E20" font-family="Inter,sans-serif">(Active)</text>
+
+          <!-- Reference city labels for orientation -->
+          <text x="88" y="56" font-size="5.5" fill="#6B7280" font-family="Inter,sans-serif">Jaffna</text>
+          <circle cx="93" cy="58" r="2" fill="#D1D5DB"/>
+
+          <text x="42" y="148" font-size="5.5" fill="#6B7280" font-family="Inter,sans-serif">Colombo</text>
+          <circle cx="60" cy="149" r="2" fill="#D1D5DB"/>
+
+          <text x="100" y="145" font-size="5.5" fill="#6B7280" font-family="Inter,sans-serif">Kandy</text>
+          <circle cx="108" cy="148" r="2" fill="#D1D5DB"/>
+
+          <text x="80" y="268" font-size="5.5" fill="#6B7280" font-family="Inter,sans-serif">Hambantota</text>
+          <circle cx="91" cy="265" r="2" fill="#D1D5DB"/>
+        </svg>
+        <div id="map-tooltip" style="position:absolute; background:var(--green-dark); color:white; font-size:.78rem; font-weight:600; padding:6px 14px; border-radius:50px; display:none; white-space:nowrap; top:0; left:50%; transform:translateX(-50%); pointer-events:none;"></div>
+      </div>
+      <div style="display:flex; gap:20px; justify-content:center; margin-top:28px; flex-wrap:wrap;">
+        <div style="display:flex; align-items:center; gap:8px; font-size:.82rem; font-weight:600; color:var(--green-dark);">
+          <div style="width:12px;height:12px;background:var(--green);border-radius:50%;"></div> Active Project
+        </div>
+        <div style="display:flex; align-items:center; gap:8px; font-size:.82rem; font-weight:600; color:#92400E;">
+          <div style="width:12px;height:12px;background:#F59E0B;border-radius:50%;"></div> Developing Site
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FARM SITES DETAIL -->
+<section class="section" id="farm-sites" style="background:var(--white);">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-label">Active Projects</span>
+      <h2 class="section-title">Current Farm Sites</h2>
+      <p class="section-subtitle">Each farm site is selected and managed with precision agronomy, modern infrastructure, and a commitment to sustainable excellence.</p>
+    </div>
+    <div class="farm-sites-grid">
+
+      <!-- Site 1: Nuwara Eliya -->
+      <div class="farm-site-card reveal">
+        <div class="farm-site-header">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px;">
+            <span class="badge" style="background:rgba(255,255,255,.2); color:white; font-size:.7rem;">Project 01</span>
+            <span class="badge" style="background:#A5D6A7; color:#1B5E20;">Active</span>
+          </div>
+          <h3>Nuwara Eliya Highland Farm</h3>
+          <div class="loc">
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>
+            Nuwara Eliya District, Central Province, Sri Lanka
+          </div>
+        </div>
+        <div class="farm-site-body">
+          <p style="font-size:.88rem; color:var(--text-muted); margin-bottom:20px;">Our flagship highland farm nestled in the cool misty terrain of Nuwara Eliya — Sri Lanka's premier vegetable-growing highland. The unique combination of volcanic soil, year-round mist, and temperatures between 5–20°C creates ideal conditions for premium potato cultivation.</p>
+          <div class="farm-kpis">
+            <div class="kpi"><div class="val">🥔</div><div class="key">Potato</div></div>
+            <div class="kpi"><div class="val">Highland</div><div class="key">Climate Zone</div></div>
+            <div class="kpi"><div class="val">Active</div><div class="key">Status</div></div>
+          </div>
+          <div class="farm-site-crops">
+            <span class="spec-tag">Potato</span>
+            <span class="spec-tag">Highland Grown</span>
+            <span class="spec-tag">Export Grade</span>
+          </div>
+          <div style="margin-top:16px; padding:12px; background:var(--green-pale); border-radius:var(--radius); font-size:.8rem; color:var(--green-dark);">
+            <strong>Location Advantage:</strong> Nuwara Eliya's cool, misty climate at 1,868m elevation produces exceptional potato quality with natural pest resistance.
+          </div>
+        </div>
+      </div>
+
+      <!-- Site 2: Mannar -->
+      <div class="farm-site-card reveal">
+        <div class="farm-site-header" style="background:linear-gradient(135deg,#92400E,#D97706);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px;">
+            <span class="badge" style="background:rgba(255,255,255,.2); color:white; font-size:.7rem;">Project 02</span>
+            <span class="badge" style="background:#FEF3C7; color:#92400E;">Developing</span>
+          </div>
+          <h3>Mannar Chilli Development Site</h3>
+          <div class="loc">
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>
+            Mannar District, Northern Province, Sri Lanka
+          </div>
+        </div>
+        <div class="farm-site-body">
+          <p style="font-size:.88rem; color:var(--text-muted); margin-bottom:20px;">Our developing chilli cultivation site on the arid coastal plains of Mannar. The island's low annual rainfall, intense sunshine, and sandy loam soils are internationally recognised as ideal for producing premium-heat, deeply coloured chillies for export markets.</p>
+          <div class="farm-kpis">
+            <div class="kpi"><div class="val">🌶️</div><div class="key">Red Chilli</div></div>
+            <div class="kpi"><div class="val">🌿</div><div class="key">Green Chilli</div></div>
+            <div class="kpi"><div class="val">Soon</div><div class="key">Status</div></div>
+          </div>
+          <div class="farm-site-crops">
+            <span class="spec-tag">Red Chilli</span>
+            <span class="spec-tag">Green Chilli</span>
+            <span class="spec-tag">Development Phase</span>
+          </div>
+          <div style="margin-top:16px; padding:12px; background:#FEF3C7; border-radius:var(--radius); font-size:.8rem; color:#92400E;">
+            <strong>Location Advantage:</strong> Mannar's dry, tropical climate with strong sunshine and low humidity mirrors the best chilli-growing regions globally.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPANSION PIPELINE -->
+<section class="section" id="expansion" style="background:var(--off-white);">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-label">Future Growth</span>
+      <h2 class="section-title">Expansion Pipeline 2025–2028</h2>
+      <p class="section-subtitle">Ceylon Agro Development is actively expanding production capacity and diversifying into new agri-technologies to meet growing global demand.</p>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:24px;">
+
+      <div class="project-card reveal">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <div class="project-num" style="font-size:2rem; margin-bottom:0;">Phase 3</div>
+          <span class="badge badge-gold">2026 Q1</span>
+        </div>
+        <h3>🏡 Homagama Greenhouse Project</h3>
+        <p>A state-of-the-art controlled-environment greenhouse facility near Homagama, Colombo district. Focused on year-round production of high-value crops with precision agriculture, less water, and zero weather dependency.</p>
+        <div class="project-meta" style="margin-top:16px;">
+          <span class="meta-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg> Homagama, Colombo</span>
+          <span class="meta-item">💰 Open to Investment</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <div class="project-num" style="font-size:2rem; margin-bottom:0;">Phase 4</div>
+          <span class="badge badge-gold">2026 Q3</span>
+        </div>
+        <h3>🏔️ Second Site — Nuwara Eliya</h3>
+        <p>Expansion of our successful Nuwara Eliya potato operation with a second dedicated highland site. This new site will focus on scaling potato production capacity and introducing additional highland vegetable varieties.</p>
+        <div class="project-meta" style="margin-top:16px;">
+          <span class="meta-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg> Nuwara Eliya</span>
+          <span class="meta-item">💰 Joint Venture Available</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <div class="project-num" style="font-size:2rem; margin-bottom:0;">Phase 5</div>
+          <span class="badge badge-gold">2027 Q2</span>
+        </div>
+        <h3>🏭 Value-Added Processing Hub</h3>
+        <p>A modern agri-processing facility to add value to our produce — chilli powders, flakes, dried potato products, and IQF processing to serve higher-margin global markets with premium packaged goods.</p>
+        <div class="project-meta" style="margin-top:16px;">
+          <span class="meta-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg> LKR 250M Investment</span>
+          <span class="meta-item">💰 Investor Sought</span>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:48px;">
+      <a href="investors.html" class="btn btn-primary btn-lg">
+        Explore Investment Opportunities
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="cta-bar">
+  <div class="container">
+    <div class="cta-bar-inner">
+      <div>
+        <h3>Interested in a Farm Visit?</h3>
+        <p>We welcome buyers, investors, and partners to visit our operations. Contact us to arrange a site tour.</p>
+      </div>
+      <div class="cta-bar-actions">
+        <a href="contact.html" class="btn btn-primary">Arrange a Visit</a>
+        <a href="investors.html" class="btn btn-secondary">Investment Info</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div style="margin-bottom:16px;"><span style="font-family:'Playfair Display',serif;font-size:1.1rem;color:white;">Ceylon Agro Development</span><br/><span style="font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);">Est. 2015 · Sri Lanka</span></div>
+        <p>Bridging Sri Lanka's fertile agricultural heritage with global export markets since 2015.</p>
+      </div>
+      <div class="footer-col"><h5>Pages</h5><ul class="footer-links"><li><a href="index.html">→ Home</a></li><li><a href="about.html">→ About</a></li><li><a href="products.html">→ Portfolio – Products</a></li><li><a href="projects.html">→ Portfolio – Projects</a></li><li><a href="sustainability.html">→ Sustainability</a></li><li><a href="investors.html">→ Investors</a></li><li><a href="contact.html">→ Contact</a></li></ul></div>
+      <div class="footer-col"><h5>Farm Sites</h5><ul class="footer-links"><li><a href="#farm-sites">→ Nuwara Eliya Farm</a></li><li><a href="#farm-sites">→ Mannar Chilli Site</a></li><li><a href="#expansion">→ Expansion Pipeline</a></li></ul></div>
+      <div class="footer-col"><h5>Contact</h5><div class="footer-contacts"><div class="footer-contact-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.38 19.79 19.79 0 01.14.93 2 2 0 012.12 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.46-.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><span>+94 37 222 4567</span></div><div class="footer-contact-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>export@ceylonagro.lk</span></div></div></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 Ceylon Agro Development. All rights reserved.</p><p><a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a></p></div>
+  </div>
+</footer>
+<a href="https://wa.me/94773456789" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="28" height="28" fill="white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg></a>
+<script src="script.js"></script>
+</body>
+</html>
